@@ -43,6 +43,7 @@ print(W1.shape)
 print(W2.shape)
 print(W3.shape)
 
+
 ## 배치 처리 구현
 
 batch_size = 100 # 배치 크기

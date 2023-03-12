@@ -18,6 +18,7 @@ print(label)  # 5
 
 print(img.shape)  # (784,)
 img = img.reshape(28, 28)  # 형상을 원래 이미지의 크기로 변형
+# 원래 해당 이미지 크기는 3차원 1 x 28 x 28 이였음
 print(img.shape)  # (28, 28)
 
 img_show(img)
