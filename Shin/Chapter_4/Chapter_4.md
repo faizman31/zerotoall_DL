@@ -66,7 +66,8 @@ $$
 > 함수의 값을 낮추는 방안을 제시하는 지표 -> 기울기
 - 경사법은 기울어진 방향으로 일정 거리만큼 이동하고 이를 반복하면서 함수의 값을 점차 줄이는 것이 경사법(gradient method)입니다.  
 
-$$ x_0 = x_0 - /eta {{\partial f} \over {\partial x_0}}$$
+$$ x_0 = x_0 - /eta {{\partial f} \over {\partial x_0}}$$  
+
 $$ x_1 = x_1 - \eta {{\partial f}\over {\partial x_1}}$$
 - 학습률($\eta$,learning rate) : 갱신하는 양을 나타냄 -> 한번 학습으로 얼마만큼 학습할 것인지 즉 매개변수의 값을 얼마나 갱신할건지를 정함  
 ## 4.5 학습 알고리즘 구현하기
