@@ -40,7 +40,8 @@ t = np.array([0, 0, 1]) # 정답 레이블
 print(net.loss(X, t))
 
 
-def f(W): # 왜 더미지?
+def f(W): # 왜 더미지? # -> 이부분 다시 확실히 알아볼 것
+    
     return net.loss(X, t)
 
 dW = numerical_gradient(f, net.W)

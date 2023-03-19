@@ -26,8 +26,15 @@ test_acc_list = []
 iter_per_epoch = max(train_size / batch_size, 1)
 
 for i in tqdm(range(iters_num)):
+    #train_size = 60,000 개
+    
     # 미니배치 획득
     batch_mask = np.random.choice(train_size, batch_size)
+    # random.choice (리스트, 취득개수)
+    
+    # print(type(batch_mask))
+    # print(f'batch_mask{batch_mask}')
+
     x_batch = x_train[batch_mask]
     t_batch = t_train[batch_mask]
     
